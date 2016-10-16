@@ -1,0 +1,25 @@
+{
+  "name": "ts-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r ./node_modules/ts-node/register src/__test__/**/*.ts"
+  },
+  "keywords": [
+    "TypeScript",
+    "mocha",
+    "chai",
+    "test"
+  ],
+  "author": "小撸",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "ts-node": "^1.5.2",
+    "typescript": "^2.0.3"
+  }
+}
